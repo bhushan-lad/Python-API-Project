@@ -2,9 +2,9 @@ from flask import Flask, jsonify
 import boto3
 app = Flask(__name__)
 
-AWS_ACCESS_KEY_ID = "AKIAQ3EGR5G3AGCOI75B"
-AWS_SECRET_ACCESS_KEY = "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"
-BUCKET_NAME = "api-bucket123"
+AWS_ACCESS_KEY_ID = ""
+AWS_SECRET_ACCESS_KEY = ""
+BUCKET_NAME = ""
 s3 = boto3.client('s3',
                   aws_access_key_id=AWS_ACCESS_KEY_ID,
                   aws_secret_access_key=AWS_SECRET_ACCESS_KEY)
