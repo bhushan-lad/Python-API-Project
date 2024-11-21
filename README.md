@@ -16,4 +16,4 @@ Replace all the default values in variables.tf with your own.
 requirements.sh :
 this file has all the commands that are going to execute in ec2, I've listed the commands in this file to install all the necessary packages.
 
-
+Finally, please use your own .pem file to deploy ec2 instance and to connect to the same, I've used mykey.pem (which is not present in this repository).
